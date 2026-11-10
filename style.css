@@ -214,10 +214,6 @@ header p {
     margin-bottom: 6px;
 }
 
-#ringkasan-pesanan p strong {
-    font-weight: bold;
-}
-
 #ringkasan-pesanan p:last-child {
     display: block;
 }

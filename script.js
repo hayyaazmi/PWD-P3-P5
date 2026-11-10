@@ -203,7 +203,7 @@ function checkout() {
             daftarRingkasan.push(`${namaProduk} (${hitungItem[namaProduk]})`);
         }
         const itemList = daftarRingkasan.join(", ");
-        const ringkasan = document.getElementById("ringkasan-pesanan");
+        const ringkasan = document.getElementsByClassName("container-ringkasan")[0];
         
         ringkasan.innerHTML = `
             <h3>Ringkasan Pesanan</h3>
